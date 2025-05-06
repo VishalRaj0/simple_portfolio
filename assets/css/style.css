@@ -334,6 +334,7 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  width: 80;
 }
 
 .info-content .name {
@@ -1879,4 +1880,27 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+.org-name{
+    font-weight: normal;
+    font-style: italic;
+    font-size: var(--fs-8);
+}
+
+.custom-bullets {
+  list-style: none;
+}
+
+.custom-bullets li {
+  position: relative;
+  padding-left: 1em; /* Space between bullet and text */
+  text-indent: 0; /* Prevent browser auto-indentation */
+}
+
+.custom-bullets li::before {
+  content: ">"; /* Looks cleaner than > */
+  position: absolute;
+  left: 0;
+  font-size: 1em;
 }
