@@ -1,0 +1,19 @@
+<svg width="120" height="120" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD700"></stop>
+      <stop offset="1" stop-color="#FFA500"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Browser window -->
+  <rect x="10" y="14" width="44" height="28" rx="2" stroke="url(#goldGradient)" stroke-width="2"></rect>
+  <circle cx="16" cy="18" r="1.5" fill="url(#goldGradient)"></circle>
+  <circle cx="21" cy="18" r="1.5" fill="url(#goldGradient)"></circle>
+  <circle cx="26" cy="18" r="1.5" fill="url(#goldGradient)"></circle>
+
+  <!-- Pencil (crossing browser) -->
+  <path d="M40 20L25 35L27 37L42 22L40 20Z" stroke="url(#goldGradient)" stroke-width="2" fill="none"></path>
+  <path d="M24 36L23 39L26 38L24 36Z" fill="url(#goldGradient)"></path>
+</svg>

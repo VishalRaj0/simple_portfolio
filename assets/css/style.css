@@ -1904,3 +1904,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   left: 0;
   font-size: 1em;
 }
+
+.image-wrapper{
+    object-fit: cover;
+}
