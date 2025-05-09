@@ -905,7 +905,7 @@
     };
 
     try {
-      const res = await fetch(process.env.VERCEL_API_ENDPOINT, {
+      const res = await fetch('https://nextjs-boilerplate-psi-weld-84.vercel.app/api/send', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
