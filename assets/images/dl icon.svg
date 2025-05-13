@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Arrow -->
+  <path d="M32 6v36" stroke="#FFD700" stroke-width="4" stroke-linecap="round"></path>
+  <path d="M20 38l12 12 12-12" stroke="#FFD700" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  
+  <!-- Base line -->
+  <path d="M16 56h32" stroke="#FFD700" stroke-width="4" stroke-linecap="round"></path>
+</svg>

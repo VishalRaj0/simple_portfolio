@@ -1169,7 +1169,7 @@ main {
 
 textarea.form-input {
   min-height: 100px;
-  height: 120px;
+  height: 200px;
   max-height: 200px;
   resize: vertical;
   margin-bottom: 25px;
@@ -1907,4 +1907,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .image-wrapper{
     object-fit: cover;
+}
+
+#download{
+  vertical-align: middle;
+  margin-left: 8px; /* spacing between text and icon */
+}
+
+#download ion-icon{
+    font-size:1.2em;
 }
